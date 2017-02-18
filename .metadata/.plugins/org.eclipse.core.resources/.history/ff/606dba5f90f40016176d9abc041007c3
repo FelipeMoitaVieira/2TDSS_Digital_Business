@@ -1,0 +1,37 @@
+package com.fiap.loja;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Scanner;
+
+import com.fiap.loja.beans.ProdutoTO;
+
+public class TerminalConsulta {
+	
+	public static void main(String[] args) {
+		
+		SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		DecimalFormat moeda = new DecimalFormat("R$#,####.00");
+		
+		Scanner tc = new Scanner(System.in);
+		
+		System.out.println("FIAP - " + formatador.format(Calendar.getInstance().getTime()));
+		System.out.println("*****************************************************");
+		
+		System.out.println("Digite o código: ");
+		int codigo = tc.nextInt();
+		
+		EstoqueBO bo = new EstoqueBO();
+		ProdutoTO produto = bo.consultarProduto(codigo);
+		
+		System.out.println(produto.getDescricao());
+		System.out.println(produto.getQuantidade());
+		System.out.println(moeda.format(produto.getPreco()));
+		
+		
+		tc.close();
+		
+	}
+
+}

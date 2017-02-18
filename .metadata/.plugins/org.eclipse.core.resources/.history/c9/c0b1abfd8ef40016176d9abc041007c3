@@ -1,0 +1,32 @@
+package com.fiap.loja;
+
+import java.util.Map;
+
+import com.fiap.loja.beans.ProdutoTO;
+
+public class EstoqueBO {
+	
+	//Simula o banco de dados
+	private Map<Integer,ProdutoTO> banco;
+
+	public ProdutoTO consultarProduto (int codigo){
+		ProdutoTO pTO = new ProdutoTO();
+		if(codigo == 401){
+			
+			pTO.setCodigo(401);
+			pTO.setDescricao("Camiseta Masculina Manga Curta Branca");
+			pTO.setPreco(35.59);
+			pTO.setQuantidade(150);
+			
+		}else{
+			pTO.setCodigo(402);
+			pTO.setDescricao("Camiseta Feminina Manga Longa Rosa");
+			pTO.setPreco(32.59);
+			pTO.setQuantidade(150);
+			
+		}
+		
+		return null;
+	}
+	
+}

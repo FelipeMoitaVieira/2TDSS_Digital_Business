@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="10a8d8c5-eae6-4f2c-aa09-1a71acea87d6" activeEnvironment="Default" name="DisciplinaBO?wsdl" resourceRoot="" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="e09322de-3376-45bd-818d-28a269d39fbd" wsaVersion="NONE" name="DisciplinaBOSoap12Binding" type="wsdl" bindingName="{http://bo.fiap.com.br}DisciplinaBOSoap12Binding" soapVersion="1_2" anonymous="optional" definition="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap12Endpoint/</con:endpoint></con:endpoints><con:operation id="2662c2cd-6131-49c0-9082-90a197a35614" isOneWay="false" action="urn:calcularMedia" name="calcularMedia" bindingOperationName="calcularMedia" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bec950bd-96e5-44e0-9dae-ddcd3092d1c3" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bo="http://bo.fiap.com.br">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <bo:calcularMedia>\r
+         <!--Optional:-->\r
+         <bo:am>?</bo:am>\r
+         <!--Optional:-->\r
+         <bo:ps>?</bo:ps>\r
+         <!--Optional:-->\r
+         <bo:nac>?</bo:nac>\r
+      </bo:calcularMedia>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularMedia"/></con:call></con:operation><con:operation id="ba50e87d-852b-4daf-9967-2ec67d1e3594" isOneWay="false" action="urn:calcularPs" name="calcularPs" bindingOperationName="calcularPs" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9f0bf97b-c832-458f-adf9-82e2eb5cff84" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bo="http://bo.fiap.com.br">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <bo:calcularPs>\r
+         <!--Optional:-->\r
+         <bo:am>?</bo:am>\r
+         <!--Optional:-->\r
+         <bo:nac>?</bo:nac>\r
+      </bo:calcularPs>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularPs"/></con:call></con:operation><con:operation id="5ca5acec-2567-4f64-9aed-c879d4870300" isOneWay="false" action="urn:calcularPsAnual" name="calcularPsAnual" bindingOperationName="calcularPsAnual" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0bc45bbc-a89d-416e-ba88-7d5a988c66aa" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bo="http://bo.fiap.com.br">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <bo:calcularPsAnual>\r
+         <!--Optional:-->\r
+         <bo:am>?</bo:am>\r
+         <!--Optional:-->\r
+         <bo:nac>?</bo:nac>\r
+         <!--Optional:-->\r
+         <bo:mediaSemestre>?</bo:mediaSemestre>\r
+      </bo:calcularPsAnual>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularPsAnual"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="9c35537f-b9b3-45e2-828c-0dab2f0aae5f" wsaVersion="NONE" name="DisciplinaBOSoap11Binding" type="wsdl" bindingName="{http://bo.fiap.com.br}DisciplinaBOSoap11Binding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO?wsdl"><con:part><con:url>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://bo.fiap.com.br" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://bo.fiap.com.br" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:documentation>Please Type your service description here</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bo.fiap.com.br">
+      <xs:element name="calcularPsAnual">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="am" type="xs:float"/>
+            <xs:element minOccurs="0" name="nac" type="xs:float"/>
+            <xs:element minOccurs="0" name="mediaSemestre" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calcularPsAnualResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calcularPs">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="am" type="xs:float"/>
+            <xs:element minOccurs="0" name="nac" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calcularPsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calcularMedia">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="am" type="xs:float"/>
+            <xs:element minOccurs="0" name="ps" type="xs:float"/>
+            <xs:element minOccurs="0" name="nac" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calcularMediaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="calcularPsRequest">
+    <wsdl:part name="parameters" element="ns:calcularPs"/>
+  </wsdl:message>
+  <wsdl:message name="calcularPsResponse">
+    <wsdl:part name="parameters" element="ns:calcularPsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="calcularMediaRequest">
+    <wsdl:part name="parameters" element="ns:calcularMedia"/>
+  </wsdl:message>
+  <wsdl:message name="calcularMediaResponse">
+    <wsdl:part name="parameters" element="ns:calcularMediaResponse"/>
+  </wsdl:message>
+  <wsdl:message name="calcularPsAnualRequest">
+    <wsdl:part name="parameters" element="ns:calcularPsAnual"/>
+  </wsdl:message>
+  <wsdl:message name="calcularPsAnualResponse">
+    <wsdl:part name="parameters" element="ns:calcularPsAnualResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="DisciplinaBOPortType">
+    <wsdl:operation name="calcularPs">
+      <wsdl:input message="ns:calcularPsRequest" wsaw:Action="urn:calcularPs"/>
+      <wsdl:output message="ns:calcularPsResponse" wsaw:Action="urn:calcularPsResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="calcularMedia">
+      <wsdl:input message="ns:calcularMediaRequest" wsaw:Action="urn:calcularMedia"/>
+      <wsdl:output message="ns:calcularMediaResponse" wsaw:Action="urn:calcularMediaResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="calcularPsAnual">
+      <wsdl:input message="ns:calcularPsAnualRequest" wsaw:Action="urn:calcularPsAnual"/>
+      <wsdl:output message="ns:calcularPsAnualResponse" wsaw:Action="urn:calcularPsAnualResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DisciplinaBOSoap11Binding" type="ns:DisciplinaBOPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="calcularPs">
+      <soap:operation soapAction="urn:calcularPs" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularMedia">
+      <soap:operation soapAction="urn:calcularMedia" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularPsAnual">
+      <soap:operation soapAction="urn:calcularPsAnual" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DisciplinaBOSoap12Binding" type="ns:DisciplinaBOPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="calcularPs">
+      <soap12:operation soapAction="urn:calcularPs" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularMedia">
+      <soap12:operation soapAction="urn:calcularMedia" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularPsAnual">
+      <soap12:operation soapAction="urn:calcularPsAnual" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DisciplinaBOHttpBinding" type="ns:DisciplinaBOPortType">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="calcularPs">
+      <http:operation location="calcularPs"/>
+      <wsdl:input>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularMedia">
+      <http:operation location="calcularMedia"/>
+      <wsdl:input>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="calcularPsAnual">
+      <http:operation location="calcularPsAnual"/>
+      <wsdl:input>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DisciplinaBO">
+    <wsdl:port name="DisciplinaBOHttpSoap11Endpoint" binding="ns:DisciplinaBOSoap11Binding">
+      <soap:address location="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap11Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="DisciplinaBOHttpSoap12Endpoint" binding="ns:DisciplinaBOSoap12Binding">
+      <soap12:address location="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap12Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="DisciplinaBOHttpEndpoint" binding="ns:DisciplinaBOHttpBinding">
+      <http:address location="http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpEndpoint/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap11Endpoint/</con:endpoint></con:endpoints><con:operation id="6aacef2b-e623-4fc4-b1ae-0a1516822330" isOneWay="false" action="urn:calcularMedia" name="calcularMedia" bindingOperationName="calcularMedia" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f16eef9e-6253-4aec-85b5-9ea0bc178034" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bo="http://bo.fiap.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <bo:calcularMedia>\r
+         <!--Optional:-->\r
+         <bo:am>?</bo:am>\r
+         <!--Optional:-->\r
+         <bo:ps>?</bo:ps>\r
+         <!--Optional:-->\r
+         <bo:nac>?</bo:nac>\r
+      </bo:calcularMedia>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularMedia"/></con:call></con:operation><con:operation id="33262e76-a593-4770-9666-2ebc8799d595" isOneWay="false" action="urn:calcularPs" name="calcularPs" bindingOperationName="calcularPs" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="19f49d02-c66e-4e1a-9656-af55993d08fe" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bo="http://bo.fiap.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <bo:calcularPs>\r
+         <!--Optional:-->\r
+         <bo:am>8</bo:am>\r
+         <!--Optional:-->\r
+         <bo:nac>7</bo:nac>\r
+      </bo:calcularPs>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularPs"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="848da829-7d46-4920-93ce-a861859bd9ce" isOneWay="false" action="urn:calcularPsAnual" name="calcularPsAnual" bindingOperationName="calcularPsAnual" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="65446a47-4d53-468f-8285-366ff60023b8" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/04-WebserviceSOAP-provider/services/DisciplinaBO.DisciplinaBOHttpSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bo="http://bo.fiap.com.br">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <bo:calcularPsAnual>\r
+         <!--Optional:-->\r
+         <bo:am>10</bo:am>\r
+         <!--Optional:-->\r
+         <bo:nac>10</bo:nac>\r
+         <!--Optional:-->\r
+         <bo:mediaSemestre>10</bo:mediaSemestre>\r
+      </bo:calcularPsAnual>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:calcularPsAnual"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

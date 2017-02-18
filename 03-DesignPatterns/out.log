@@ -1,0 +1,23 @@
+2017-02-16 20:15:55 DEBUG Teste:15 - Lendo uma propriedade do sistema
+2017-02-16 20:15:55 INFO  PropertySingleton:21 - Instanciando o Properties
+2017-02-16 20:15:55 INFO  PropertySingleton:26 - Carregando as Propriedades
+2017-02-16 20:15:55 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:15:55 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:15:55 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:16:39 DEBUG Teste:15 - Lendo uma propriedade do sistema
+2017-02-16 20:16:39 INFO  PropertySingleton:21 - Instanciando o Properties
+2017-02-16 20:16:39 INFO  PropertySingleton:26 - Carregando as Propriedades
+2017-02-16 20:16:39 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:16:39 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:16:39 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:18:41 DEBUG Teste:15 - Lendo uma propriedade do sistema
+2017-02-16 20:18:41 INFO  PropertySingleton:21 - Instanciando o Properties
+2017-02-16 20:18:41 INFO  PropertySingleton:26 - Carregando as Propriedades
+2017-02-16 20:18:41 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:18:41 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:18:41 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton
+2017-02-16 20:19:40 DEBUG Teste:15 - Lendo uma propriedade do sistema
+2017-02-16 20:20:32 DEBUG Teste:15 - Lendo uma propriedade do sistema
+2017-02-16 20:20:32 INFO  PropertySingleton:21 - Instanciando o Properties
+2017-02-16 20:20:32 INFO  PropertySingleton:26 - Carregando as Propriedades
+2017-02-16 20:20:32 DEBUG PropertySingleton:33 - Lendo uma propriedade do PropertySingleton

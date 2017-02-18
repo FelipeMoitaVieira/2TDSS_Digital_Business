@@ -1,0 +1,36 @@
+package br.com.fiap.property;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import br.com.fiap.teste.Teste;
+
+public class PropertySingleton {
+
+	private static final Logger log = LoggerFactory.getLogger(PropertySingleton.class);
+	
+	private static Properties prop;
+	
+	private PropertySingleton(){}
+	
+	public static final Properties getInstance(){
+		if(prop == null){
+			
+			
+			
+			prop = new Properties();
+			
+			try {
+				prop.load(PropertySingleton.class.getResourceAsStream("/config.properties"));
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+		}
+		
+		return prop;
+	}
+}

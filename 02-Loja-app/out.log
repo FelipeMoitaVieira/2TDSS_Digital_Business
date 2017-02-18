@@ -1,0 +1,9 @@
+2017-02-16 20:29:16 INFO  PropertySingleton:20 - Instanciando o Properties
+2017-02-16 20:29:16 INFO  PropertySingleton:23 - Carregando Propiedades
+2017-02-16 20:29:22 INFO  ProdutoTO:35 - Instanciando um objeto Produto
+2017-02-16 20:29:22 INFO  ProdutoTO:37 - Produto Existe no Sistema
+2017-02-16 20:30:26 INFO  PropertySingleton:20 - Instanciando o Properties
+2017-02-16 20:30:26 INFO  PropertySingleton:23 - Carregando Propiedades
+2017-02-16 20:30:30 INFO  ProdutoTO:35 - Instanciando um objeto Produto
+2017-02-16 20:30:30 ERROR ProdutoTO:42 - Produto não consta no sistema
+2017-02-16 20:30:30 WARN  ProdutoTO:45 - Fim da Aplicação
